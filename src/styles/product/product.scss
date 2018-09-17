@@ -3,11 +3,11 @@ $xs: 370px;
 
 .products-list {
     padding: 0;
-    margin: 0 auto;
+    margin: 0;
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    max-width: 475px;
+    width: 100%;
 
     @media screen and (max-width: $sm) {
         
