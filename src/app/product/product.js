@@ -13,7 +13,7 @@ export default function product() {
     }
 
     function productHover(product) {
-        let height = product.clientHeight;
+        let height = Math.ceil(product.offsetHeight);
         product.style.height = `${height}px`;
         product.classList.add('product-list__product--hover')
     }
